@@ -26,9 +26,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 30px;
+  padding-right: 20px;
+  margin-bottom: 50px;
+  font-family: 'Montserrat', sans-serif;
   background: pink;
-  pad: 0 20px;
+  pad: 0 30px;
   position: sticky;
   top: 0;
 }
@@ -37,8 +39,7 @@ header {
   background: #ee00FF;
   border-radius: 15px 15px 0 15px;
   margin: 0 0px 10px 90px; 
-  padding: 5px 20px;
-  
+  padding: 5px 20px; 
 }
 
 .Dorian {
@@ -47,3 +48,12 @@ header {
   margin: 0 90px 10px 0;
   padding: 5px 20px;
 } 
+
+footer {
+  background: pink;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  position: sticky;
+  bottom: 0;
+}
