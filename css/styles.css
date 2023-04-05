@@ -21,7 +21,7 @@ header {
   align-items: center;
   padding-right: 20px;
   font-family: 'Roboto', sans-serif;
-  background: pink;
+  background: #a5c7f9;
   pad: 0px;
   position: sticky;
   top: 0;
@@ -37,27 +37,31 @@ main div p {
 }
 
 main {
-  background:url(../img/wallpaper.jpg);
+  background:url(../img/fond-ecran.jpg);
+  background-attachment: fixed ;
   padding-bottom: 10px;
   padding-top: 10px;
 }
 
 .Yuna {
-  background:pink;
+  background:#f9d9a5;
   border-radius: 15px 15px 0 15px;
   margin: 0 10px 30px 90px; 
-  padding:10px 5px; 
+  padding: 5px 40px; 
 }
+ div {
+  margin: 0 10px 30px 90px;
+ }
 
 .Dorian {
-  background: #b88dc9;
+  background: #aba5f9;
   border-radius: 15px 15px 15px 0;
   margin: 0px 90px 30px 10px;
   padding: 10px 20px;
 } 
 
 footer {
-  background: pink;
+  background: #a5c7f9 ;
   display: flex;
   justify-content: space-around;
   padding: 30px;
@@ -66,6 +70,6 @@ footer {
 }
 
 footer img{
- max-width: 7%;
+ max-width: 9%;
  padding-right: 1px;
 }
