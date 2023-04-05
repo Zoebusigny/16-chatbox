@@ -1,25 +1,18 @@
 body {
   max-width: 320px;
   margin: auto;
-  background: #fff;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 img {
   display: block;
   max-width: 100%;
 }
-
+ 
 .chatbox-container {
-  max-width: 300px;
+  max-width: 320px;
   margin: auto;
+  padding: auto;
   font-family: 'IBM Plex Sans', sans-serif; 
-}
-
-main div p {
-  padding:2px;
-  margin: 2px;
 }
 
 header {
@@ -27,33 +20,52 @@ header {
   justify-content: space-around;
   align-items: center;
   padding-right: 20px;
-  margin-bottom: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: pink;
-  pad: 0 30px;
+  pad: 0px;
   position: sticky;
   top: 0;
 }
+header img{
+  width: 60px; 
+  height: 60px;
+  border-radius: 50%;
+}
+main div p {
+  padding: 5px;
+  margin: 1px;
+}
+
+main {
+  background:url(../img/wallpaper.jpg);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 .Yuna {
-  background: #ee00FF;
+  background:pink;
   border-radius: 15px 15px 0 15px;
-  margin: 0 0px 10px 90px; 
-  padding: 5px 20px; 
+  margin: 0 10px 30px 90px; 
+  padding:10px 5px; 
 }
 
 .Dorian {
-  background: #9933FF;
+  background: #b88dc9;
   border-radius: 15px 15px 15px 0;
-  margin: 0 90px 10px 0;
-  padding: 5px 20px;
+  margin: 0px 90px 30px 10px;
+  padding: 10px 20px;
 } 
 
 footer {
   background: pink;
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 30px;
   position: sticky;
-  bottom: 0;
+  bottom: 1px;
+}
+
+footer img{
+ max-width: 7%;
+ padding-right: 1px;
 }
