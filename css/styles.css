@@ -7,12 +7,12 @@ img {
   display: block;
   max-width: 100%;
 }
-
+ 
 .chatbox-container {
   max-width: 375px;
   margin: auto;
   padding: auto;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif; 
 }
 
 header {
@@ -27,15 +27,15 @@ header {
   top: 0;
 }
 
-header img {
-  width: 60px;
+header img{
+  width: 60px; 
   height: 60px;
   border-radius: 50%;
 }
 
 main {
-  background: url(../img/fond-ecran.jpg);
-  background-attachment: fixed;
+  background:url(../img/fond-ecran.jpg);
+  background-attachment: fixed ;
   background-position: center;
   padding-bottom: 10px;
   padding-top: 10px;
@@ -44,7 +44,7 @@ main {
 .Yuna {
   background: #f9d9a5;
   border-radius: 15px 15px 0 15px;
-  margin: 0 10px 10px 120px;
+  margin:  0 10px 10px 120px; 
   padding: 5px 5px 5px 5px;
 
 }
@@ -57,26 +57,26 @@ p .Yuna {
   background: #aba5f9;
   border-radius: 15px 15px 15px 0;
   margin: 0 120px 10px 20px;
-  padding: 5px 20px;
+  padding: 5px 20px ;
 }
 
-.grande-bulle {
-  margin: 5px 10px 5px;
+.grande-bulle{
+ margin:  5px 10px 5px 5px; 
   padding: 5px 5px 5px 5px;
 }
 
-.moyen-bulle {
-  margin: 0 10px 10px 70px;
+.moyen-bulle{
+  margin:  0 10px 10px 70px; 
   padding: 5px 5px 5px 5px;
 }
 
 .petite-bulle {
-  margin: 0 10px 10px 100px;
+  margin:  0 10px 10px 100px; 
   padding: 5px 5px 5px 5px;
 }
 
 footer {
-  background: #a5c7f9;
+  background: #a5c7f9 ;
   display: flex;
   justify-content: space-around;
   padding: 30px;
@@ -84,7 +84,7 @@ footer {
   bottom: 1px;
 }
 
-footer img {
-  max-width: 9%;
-  padding-right: 1px;
+footer img{
+ max-width: 9%;
+ padding-right: 1px;
 }
